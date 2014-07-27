@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="tic-tac-toe.css"/>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="GameController.js"></script>
+        <script type="text/javascript" src="GameEngine.js"></script>
+        <script type="text/javascript">
+            $(document).on('ready', function(){
+                var ticTacToe = new GameController();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="game">
+            <div class="game__heading">
+                <h1>Tic Tac Toe</h1> 
+            </div>
+            <div class="game__instructions">
+                <h2>Please select the grid size and click on start button to play</h2>
+            </div>
+            <form action="" class="form game__form">
+                <select name="gridSize" id="gridSize" class="grid-size">
+                </select>
+                <div class="form__button">
+                    <div id="startGameButton" class="start-game-button">Start Game</div>
+                </div>
+            </form>
+            <div id ="box">
+            </div>
+        </div>
+        
+    </body>
+</html>
+
+

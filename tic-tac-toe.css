@@ -1,0 +1,61 @@
+.game {
+    text-align: center;
+}
+
+#box {
+    display: inline-block;
+    margin: 50px auto;
+}
+
+.form__button {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 10px 15px;
+    background-color: #ef414a;
+    box-shadow: inset 0 -5px 0 #b22d35;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.form__button:active {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #b22d35;
+    box-shadow: none;
+}
+
+.box-item {
+    display: table-cell;
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    border:1px solid #ef414a;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+.box-item:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.symbol {
+    margin: 0;
+}
+
+.grid-size {
+   display: inline-block;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 10px 18px;
+    background-color: #ef414a;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
